@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %} {{block.super}} Home Page {% endblock title %}
+
+{% block content %}
+<h1> Başlangıç Sayfasına hoşgeldiniz..</h1>
+<p1> content bloğu override edildi..</p1>
+
+<p1> This is random number: {{num}}</p1>
+
+{% for i in some_list %}
+  <p1> {{i}} </br> </p1>
+{% endfor %}
+
+{% endblock %}
