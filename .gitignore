@@ -1,8 +1,4 @@
-.idea/django_project.iml
-.idea/libraries/
-.idea/misc.xml
-.idea/modules.xml
-.idea/workspace.xml
+.idea/
 .vscode/
 bin/
 include/
