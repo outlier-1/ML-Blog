@@ -9,7 +9,7 @@ import django.utils.timezone
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('restaurants', '0004_restaurantlocation_category'),
+        ('blog', '0004_restaurantlocation_category'),
     ]
 
     operations = [

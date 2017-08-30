@@ -8,7 +8,7 @@ from django.db import migrations
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('restaurants', '0002_restaurant_location'),
+        ('blog', '0002_restaurant_location'),
     ]
 
     operations = [

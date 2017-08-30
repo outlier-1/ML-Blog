@@ -8,7 +8,7 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('restaurants', '0005_restaurantlocation_timestamp'),
+        ('blog', '0005_restaurantlocation_timestamp'),
     ]
 
     operations = [
